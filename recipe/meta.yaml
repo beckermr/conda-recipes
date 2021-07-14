@@ -1,0 +1,28 @@
+package:
+  name: openssl
+  version: 1.1.1k
+
+source:
+  path: .
+
+build:
+  noarch: generic
+  number: 0
+  string: external_{{ PKG_BUILDNUM }}
+  track_features:
+    - openssl_external
+
+requirements:
+
+test:
+  commands:
+    - echo "It works!"
+
+about:
+  home: blah
+  license: BDS-3-Clause
+  summary: shell package to make conda happy about openssl
+
+extra:
+  recipe-maintainers:
+    - beckermr
