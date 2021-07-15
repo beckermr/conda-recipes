@@ -1,2 +1,3 @@
-# openssl-shells
-shell conda packages for openssl
+# conda recipes
+
+my conda recipes
