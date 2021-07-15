@@ -19,6 +19,7 @@ requirements:
 test:
   commands:
     - echo "It works!"
+    - test -f ${PREFIX}/oracle_instant_client/instantclient_*/CONDA_LINKS
 
 about:
   home: https://www.oracle.com/database/technologies/instant-client.html
